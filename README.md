@@ -1,6 +1,6 @@
 # FACIO Backend
 
-Port from: https://github.com/hagopj13/node-express-boilerplate.git
+Based on: https://github.com/hagopj13/node-express-boilerplate.git
 
 ## Commands
 
@@ -57,3 +57,7 @@ yarn prettier
 # fix prettier errors
 yarn prettier:fix
 ```
+
+## API Documentation
+
+To view the list of available APIs and their specifications, run the server and go to http://localhost:5000/v1/docs in your browser. This documentation page is automatically generated using the swagger definitions written as comments in the route files.

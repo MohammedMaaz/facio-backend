@@ -57,7 +57,7 @@ module.exports = router;
  *                 type: string
  *                 format: password
  *                 minLength: 8
- *                 description: At least one number and one letter
+ *                 description: Minimum 8 characters
  *               role:
  *                  type: string
  *                  enum: [user, admin]
@@ -206,7 +206,7 @@ module.exports = router;
  *                 type: string
  *                 format: password
  *                 minLength: 8
- *                 description: At least one number and one letter
+ *                 description: Minimum 8 characters
  *             example:
  *               name: fake name
  *               email: fake@example.com

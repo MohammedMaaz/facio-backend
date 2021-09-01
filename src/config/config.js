@@ -27,7 +27,7 @@ const envVarsSchema = Joi.object()
     GMAIL_CLIENT_ID: Joi.string().description('client id for oauth2 authentication of gmail'),
     GMAIL_CLIENT_SECRET: Joi.string().description('client secret for oauth2 authentication of gmail'),
     GMAIL_REFRESH_TOKEN: Joi.string().description('refresh token for oauth2 authentication of gmail'),
-    APP_URL: Joi.string().default('http://localhost:3000').description('frontend app url to send links through email'),
+    APP_URL: Joi.string().default('http://localhost:5000').description('frontend app url to send links through email'),
   })
   .unknown();
 
